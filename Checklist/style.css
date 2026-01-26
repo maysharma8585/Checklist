@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(218, 231, 202);
+  font-family: "Pixelify Sans", sans-serif;
+}
+h1 {
+  align-items: center;
+  text-align: center;
+}
+.whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 0 0;
+  margin: 50px;
+  transition: box-shadow 0.5s ease;
+}
+.head:hover {
+  box-shadow: none;
+}
+h1 {
+  color: rgb(88, 161, 98);
+  font-size: 80px;
+}
+.checklist {
+  margin: 0 200px 0 200px;
+}
+
+.Check {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 50px;
+  font-size: 25px;
+  transition: padding 0.5s ease;
+}
+.Check:hover {
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: rgb(34, 255, 0);
+  color: rgb(64, 255, 0);
+  cursor: pointer;
+}
