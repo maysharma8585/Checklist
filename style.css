@@ -17,11 +17,11 @@ h1 {
   align-items: center;
 }
 .head {
-  width: 500px;
+  width: 700px;
   background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px 0 0;
   margin: 50px;
-  transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.2s ease;
 }
 .head:hover {
   box-shadow: none;
